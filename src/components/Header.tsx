@@ -6,7 +6,7 @@ export function Header() {
     <div
       
     >
-      <h1>Olá Fulano, seja bem-vindo</h1>
+      <h1>M1S08 Ex 4 -Toggle de Estilo</h1>
     </div>
   );
 }

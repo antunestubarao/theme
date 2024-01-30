@@ -2,7 +2,7 @@ import { useTheme } from "../contexts/ThemeContext";
 import { Button } from "./Button";
 import { Header } from "./Header";
 
-export function Page() {
+export function StyleToggle() {
   const { theme } = useTheme();
   return (
     <div
@@ -14,13 +14,16 @@ export function Page() {
     >
       <Header />
       <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil minus
-        neque incidunt dolores nam molestias modi ducimus, ratione voluptatum.
-        Libero explicabo, eaque consectetur sint dolores corporis? Asperiores
-        ipsam sapiente tempore?
+      Permitir que os usuários alternem entre dois estilos diferentes em um componente.
+
+Descrição:
+
+Crie um componente chamado StyleToggle.
+Adicione um estado para controlar o estilo atual (por exemplo, "light" ou "dark").
+Renderize um componente com base no estilo atual.
       </p>
       <Button />
-      <h4>Lorem ipsum dolor sit amet conse</h4>
+      <h4>Adicione um botão que alterne entre os estilos quando clicado.</h4>
     </div>
   );
 }

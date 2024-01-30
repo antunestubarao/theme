@@ -1,10 +1,11 @@
-import { Page } from "./components/Page";
+import { Style } from "@mui/icons-material";
+import { StyleToggle } from "./components/StyleToggle";
 import { ThemeProvider } from "./contexts/ThemeContext";
 function App() {
   return (
     <div>
       <ThemeProvider>
-        <Page />
+        <StyleToggle />
       </ThemeProvider>
       <h1></h1>
     </div>
